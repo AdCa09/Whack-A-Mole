@@ -29,7 +29,7 @@ function createMole() {
         moleTile.innerHTML = "";
     }
     let mole = document.createElement('img');
-    mole.src = "/assets/images/kim.png";
+    mole.src = "../assets/images/kim.png";
     mole.style.pointerEvents = "none";
 
     let num = random();
